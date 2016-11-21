@@ -7,7 +7,7 @@ docker run \
   --rm -it \
   -e AWS_ACCESS_KEY_ID=%KEY_ID% \
   -e AWS_SECRET_ACCESS_KEY=%KEY% \
-  -v /loca/folder/with/playbook:/ansible \
+  -v /loca/folder/with/playbook:/playbook \
   ansible-awscli \
   ansible-playbook master.yml -v
 ```
